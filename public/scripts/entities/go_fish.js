@@ -17,7 +17,6 @@ class GoFish extends Fish {
     this.surgeSecondsLeft = Math.max(0, this.surgeSecondsLeft - PHYSICS_TICK_SIZE_S);
   }
 
-
   onClick(event) {
     this.surgeSecondsLeft = this.maxSurge;
   }
